@@ -1,0 +1,6 @@
+{
+  "name": "Lumina Homemade Soaps",
+  "description": "Artisan cold-process homemade soaps e-commerce platform with Amazon-style filtering, new release floating showcase, customer account ordering, and a professional sole proprietor order management admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

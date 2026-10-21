@@ -1,0 +1,719 @@
+{
+  "users": [
+    {
+      "id": "user-owner-niranjana",
+      "name": "R. Niranjana",
+      "email": "niranjana@luminasoaps.com",
+      "phone": "+91 98765 43210",
+      "role": "owner",
+      "password": "OwnerPassword@2026",
+      "createdAt": "2026-10-20T14:04:55.723Z",
+      "status": "Active",
+      "address": {
+        "fullName": "R. Niranjana",
+        "street": "Lumina Soaps Studio",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "zipCode": "641001",
+        "phone": "+91 98765 43210",
+        "type": "Work"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-herbal",
+      "name": "Herbal & Botanical",
+      "slug": "herbal-botanical",
+      "description": "Wildcrafted mountain herbs, neem decoctions, and healing plants.",
+      "image": "https://images.unsplash.com/photo-1607006314597-9e7960787e95?auto=format&fit=crop&w=600&q=80",
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "cat-honey",
+      "name": "Goat Milk & Honey",
+      "slug": "goat-milk-honey",
+      "description": "Ultra-creamy pasture-raised milk with raw forest honey.",
+      "image": "https://images.unsplash.com/photo-1608248597359-2ff924294b43?auto=format&fit=crop&w=600&q=80",
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "cat-scrub",
+      "name": "Exfoliating Scrub",
+      "slug": "exfoliating-scrub",
+      "description": "Ground walnut shells, sea salts, and crushed botanical foliage.",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "cat-aroma",
+      "name": "Aromatherapy & Calming",
+      "slug": "aromatherapy-calming",
+      "description": "Pure distilled essential oils for meditative bath rituals.",
+      "image": "https://images.unsplash.com/photo-1608248597359-2ff924294b43?auto=format&fit=crop&w=600&q=80",
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "cat-sensitive",
+      "name": "Sensitive & Baby Care",
+      "slug": "sensitive-baby-care",
+      "description": "Fragrance-free castile formulas packed with natural olive squalane.",
+      "image": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "cat-gift",
+      "name": "Artisan Swirl Gift Sets",
+      "slug": "artisan-gift-sets",
+      "description": "Hand-stamped luxury gift assortments packed in pine boxes.",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80",
+      "order": 6,
+      "enabled": true
+    },
+    {
+      "id": "cat-face",
+      "name": "Face & Complexion",
+      "slug": "face-complexion",
+      "description": "Pore-clearing clays, saffron radiance, and balanced sebum care.",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "order": 7,
+      "enabled": true
+    },
+    {
+      "id": "cat-bundles",
+      "name": "Value Bundles",
+      "slug": "value-bundles",
+      "description": "Curated 3-bar and 5-bar curing rack bundles at exceptional savings.",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+      "order": 8,
+      "enabled": true
+    }
+  ],
+  "products": [
+    {
+      "id": "soap-1792507229104",
+      "slug": "rosemary-french-green-clay-soap",
+      "sku": "LUM-ROSEMARY-01",
+      "name": "Rosemary & French Green Clay Soap",
+      "status": "published",
+      "tagline": "Cold-process handcrafted soap",
+      "category": "Herbal & Botanical",
+      "price": 320,
+      "rating": 5,
+      "reviewCount": 0,
+      "stock": 15,
+      "lowStockThreshold": 5,
+      "batchNumber": "LUM-2026-9002",
+      "cureDate": "Cured on solid cedar racks",
+      "weight": "125g",
+      "dimensions": "3.2\" x 2.4\" x 1.1\"",
+      "scentProfile": "Natural Botanical Scent",
+      "skinTypes": [
+        "All Skin Types"
+      ],
+      "ingredients": [
+        "Saponified Olive Oil",
+        "Coconut Oil",
+        "French Green Clay",
+        "Rosemary Essential Oil"
+      ],
+      "benefits": [
+        "Handcrafted Cold-Process Soap",
+        "Zero synthetic detergents",
+        "Cedar rack cured"
+      ],
+      "description": "Handmade cold process soap cured on cedar racks.",
+      "usageInstructions": "Lather gently with warm water, massage onto skin and rinse thoroughly.",
+      "storageInstructions": "Allow to dry between uses on a soap dish.",
+      "variants": [
+        {
+          "id": "v-1792507229104",
+          "name": "Single Bar",
+          "weight": "125g",
+          "packSize": 1,
+          "price": 320,
+          "sku": "SKU-1792507229104",
+          "stock": 15
+        }
+      ],
+      "isNewRelease": true,
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isPublished": true,
+      "image": "/logo.svg",
+      "gallery": [
+        "/logo.svg"
+      ],
+      "tags": [
+        "soap",
+        "handcrafted"
+      ],
+      "coldProcessDescription": "Traditional cold process cured 42 days.",
+      "reviews": []
+    }
+  ],
+  "orders": [],
+  "curingBatches": [],
+  "coupons": [
+    {
+      "id": "c-welcome10",
+      "code": "WELCOME10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderValue": 499,
+      "maxDiscountAmount": 150,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 1000,
+      "usedCount": 42,
+      "isActive": true,
+      "description": "Get 10% OFF on your handcrafted soap order above ₹499"
+    },
+    {
+      "id": "c-lumina100",
+      "code": "LUMINA100",
+      "discountType": "fixed",
+      "discountValue": 100,
+      "minOrderValue": 799,
+      "maxDiscountAmount": 100,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 500,
+      "usedCount": 28,
+      "isActive": true,
+      "description": "Flat ₹100 OFF on orders above ₹799 + Free Delivery"
+    },
+    {
+      "id": "c-purecare15",
+      "code": "PURECARE15",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderValue": 1199,
+      "maxDiscountAmount": 250,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 300,
+      "usedCount": 19,
+      "isActive": true,
+      "description": "Special 15% OFF for botanical self-care orders over ₹1,199"
+    }
+  ],
+  "notifications": [],
+  "supportTickets": [],
+  "promotionalBanners": [
+    {
+      "id": "ban-1",
+      "title": "Discover Your Everyday Soap Ritual",
+      "subtitle": "Simple ingredients, delightful fragrances and a little everyday luxury. Handcrafted cold-process bars cured on solid cedar drying racks.",
+      "tag": "BUY 6 SOAPS, GET 1 FREE GIFT!",
+      "ctaText": "Shop Soaps",
+      "ctaLabel": "Shop Soaps",
+      "linkAction": "shop",
+      "targetUrl": "/shop",
+      "imageUrl": "https://images.unsplash.com/photo-1607006314597-9e7960787e95?auto=format&fit=crop&w=1200&q=80",
+      "badge": "BUY 6, GET 1 FREE GIFT",
+      "active": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "ban-2",
+      "title": "Raw Goat Milk & Kashmir Forest Honey",
+      "subtitle": "Nourishing botanical lather that soothes sensitive skin naturally with organic lactic acid and pure emollients.",
+      "tag": "Artisan Batch No. 9",
+      "ctaText": "Explore Goat Milk Bars",
+      "ctaLabel": "Explore Goat Milk Bars",
+      "linkAction": "shop",
+      "targetUrl": "/shop",
+      "imageUrl": "https://images.unsplash.com/photo-1608248597359-2ff924294b43?auto=format&fit=crop&w=1200&q=80",
+      "badge": "100% CHEMICAL FREE",
+      "active": true,
+      "displayOrder": 2
+    }
+  ],
+  "companySettings": {
+    "companyName": "Lumina Soaps",
+    "brandStory": "Lumina Soaps was founded by artisan maker Thiru Kailash with a singular commitment: pure, natural cold-process soapcraft. Handcrafted in small batches with cold-pressed botanical oils, unrefined plant butters, and wildcrafted botanicals, every bar cures for over 42 days on cedar racks.",
+    "tagline": "Nature in Every Lather.",
+    "logoUrl": "/logo.svg",
+    "ownerName": "R. Niranjana",
+    "email": "niranjana@luminasoaps.com",
+    "phone": "+91 98765 43210",
+    "studioAddress": "Lumina Soaps Studio, Coimbatore, Tamil Nadu, India",
+    "businessHours": "Mon - Sat: 9:00 AM - 6:00 PM IST",
+    "gstNumber": "Unregistered Sole Proprietorship (Under GST Exemption Threshold)",
+    "currency": "INR",
+    "timeZone": "Asia/Kolkata",
+    "standardShippingFee": 70,
+    "freeShippingThreshold": 999,
+    "codAvailable": true,
+    "taxPercentage": 0,
+    "razorpayKeyIdConfigured": false,
+    "smtpConfigured": false,
+    "socialLinks": {
+      "instagram": "https://instagram.com/luminasoaps",
+      "facebook": "https://facebook.com/luminasoaps",
+      "twitter": "https://twitter.com/luminasoaps"
+    },
+    "aboutText": "Lumina Soaps is a single-owner artisanal soapery founded by R. Niranjana, committed to natural cold-process bars handcrafted with pure plant oils, raw botanicals, and unrefined butters.",
+    "shippingPolicy": "Standard shipping across India takes 3-5 business days. Free delivery on orders over ₹999.",
+    "privacyPolicy": "We respect customer privacy and never share private data.",
+    "termsAndConditions": "All soaps are handcrafted in small batches. Slight natural variations in pattern and shade are normal."
+  },
+  "auditLogs": [
+    {
+      "id": "audit-1792569192079-z59k",
+      "timestamp": "2026-10-21T07:53:12.079Z",
+      "adminEmail": "mailmethirukailash@gmail.com",
+      "action": "Offer Created",
+      "details": "Created combo offer: Buy six soaps get one pencil free"
+    },
+    {
+      "id": "audit-1792507443693-o73y",
+      "timestamp": "2026-10-20T14:44:03.693Z",
+      "adminEmail": "mailmethirukailash@gmail.com",
+      "action": "Offer Created",
+      "details": "Created combo offer: Botanical Cleanse Combo"
+    },
+    {
+      "id": "audit-1792507229104-6wo9",
+      "timestamp": "2026-10-20T14:40:29.104Z",
+      "adminEmail": "mailmethirukailash@gmail.com",
+      "action": "Product Created",
+      "details": "Created product \"Rosemary & French Green Clay Soap\" (SKU: LUM-ROSEMARY-01)"
+    }
+  ],
+  "giftItems": [],
+  "offers": [
+    {
+      "id": "offer-1792569192078",
+      "title": "Buy six soaps get one pencil free",
+      "description": "wibofiybdainsfjeklp9FIPF",
+      "image": "",
+      "offerType": "fixed_price",
+      "comboPrice": 599,
+      "includedSoaps": [
+        {
+          "soapId": "soap-1792507229104",
+          "soapName": "Rosemary & French Green Clay Soap",
+          "quantity": 1,
+          "image": "/logo.svg"
+        }
+      ],
+      "minimumQuantity": 1,
+      "giftsPerThreshold": 1,
+      "maxGiftsPerOrder": 1,
+      "startsAt": "2026-10-21T00:00:00.000Z",
+      "endsAt": "2026-10-21T00:00:00.000Z",
+      "timesUsed": 0,
+      "isActive": true,
+      "terms": "Available while handcrafted stocks last.",
+      "giftItemId": "",
+      "rewardQuantity": 1,
+      "createdAt": "2026-10-21T07:53:12.078Z",
+      "updatedAt": "2026-10-21T07:53:12.078Z"
+    },
+    {
+      "id": "offer-1792507443693",
+      "title": "Botanical Cleanse Combo",
+      "description": "Nourishing botanical cleanser duo combining French green clay and herbal oils for deep skin purification.",
+      "image": "",
+      "offerType": "fixed_price",
+      "comboPrice": 580,
+      "includedSoaps": [
+        {
+          "soapId": "soap-1792507229104",
+          "soapName": "Rosemary & French Green Clay Soap",
+          "quantity": 1,
+          "image": "/logo.svg"
+        }
+      ],
+      "minimumQuantity": 1,
+      "giftsPerThreshold": 1,
+      "maxGiftsPerOrder": 1,
+      "startsAt": "2026-10-20T00:00:00.000Z",
+      "timesUsed": 0,
+      "isActive": true,
+      "terms": "Available while handcrafted stocks last.",
+      "giftItemId": "",
+      "rewardQuantity": 1,
+      "createdAt": "2026-10-20T14:44:03.693Z",
+      "updatedAt": "2026-10-20T14:44:03.693Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "col-bestsellers",
+      "name": "Bestselling Artisan Bars",
+      "slug": "bestsellers",
+      "description": "Our most cherished customer-favorite botanical formulations, cured 42 days.",
+      "coverImage": "https://images.unsplash.com/photo-1607006314597-9e7960787e95?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 1,
+      "productIds": [
+        "soap-inr-1",
+        "soap-inr-2",
+        "soap-inr-3"
+      ],
+      "ruleType": "bestsellers",
+      "isPublished": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "col-new-releases",
+      "name": "Fresh Cedar Rack Releases",
+      "slug": "new-releases",
+      "description": "Recently cured small-batch cold process creations fresh from the cedar racks.",
+      "coverImage": "https://images.unsplash.com/photo-1608248597359-2ff924294b43?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 2,
+      "productIds": [
+        "soap-inr-1",
+        "soap-inr-5",
+        "soap-inr-7"
+      ],
+      "ruleType": "new_releases",
+      "isPublished": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "col-herbal-botanical",
+      "name": "Herbal & Botanical Heritage",
+      "slug": "herbal-botanical-heritage",
+      "description": "Wildcrafted mountain herbs, cold-pressed virgin neem, and calming chamomile.",
+      "coverImage": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 3,
+      "productIds": [
+        "soap-inr-1",
+        "soap-inr-4",
+        "soap-inr-6"
+      ],
+      "ruleType": "category",
+      "isPublished": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "col-gift-sets",
+      "name": "Artisan Gift Assortments",
+      "slug": "artisan-gift-sets",
+      "description": "Handcrafted luxury assortments packaged in pine keepsake boxes with dried botanicals.",
+      "coverImage": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 4,
+      "productIds": [
+        "soap-inr-6",
+        "soap-inr-8"
+      ],
+      "ruleType": "manual",
+      "isPublished": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "col-value-bundles",
+      "name": "Curing Rack Value Bundles",
+      "slug": "value-bundles",
+      "description": "Generous multi-bar family packs with complimentary wooden soap rest.",
+      "coverImage": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 5,
+      "productIds": [
+        "soap-inr-8"
+      ],
+      "ruleType": "manual",
+      "isPublished": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "col-seasonal",
+      "name": "Monsoon Saffron & Sandalwood Edition",
+      "slug": "seasonal-edition",
+      "description": "Limited seasonal curing batch steeped in forest honey and warm resins.",
+      "coverImage": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 6,
+      "productIds": [
+        "soap-inr-1",
+        "soap-inr-2"
+      ],
+      "ruleType": "manual",
+      "isPublished": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "homepageConfig": {
+    "heroHeadline": "Pure Care. Natural Glow.",
+    "heroSubtitle": "Small-batch artisanal soaps cured 42 days on solid cedar racks for maximum gentleness and rich conditioning lather.",
+    "heroTag": "100% Cold-Process Botanical Soaps",
+    "heroImageUrl": "https://images.unsplash.com/photo-1607006311820-d15873f8425b?auto=format&fit=crop&w=1600&q=80",
+    "heroCtaText": "Shop All Soaps",
+    "heroCtaLink": "shop",
+    "heroSecondaryCtaText": "Explore New Releases",
+    "heroSecondaryCtaLink": "shop",
+    "announcementActive": true,
+    "announcementText": "🌿 Pure artisan cold-process soaps handcrafted in Bengaluru. Free shipping on all orders over ₹799.",
+    "announcementLink": "shop",
+    "seasonalAnnouncementActive": true,
+    "seasonalAnnouncementText": "✨ Freshly cured Cedar Rack Batch LUM-IN-2026-09 now available for dispatch.",
+    "sectionsOrder": [
+      "hero",
+      "value_props",
+      "categories",
+      "new_releases",
+      "featured",
+      "bestsellers",
+      "curing_story",
+      "testimonials"
+    ],
+    "sectionsVisibility": {
+      "hero": true,
+      "value_props": true,
+      "categories": true,
+      "new_releases": true,
+      "featured": true,
+      "bestsellers": true,
+      "curing_story": true,
+      "testimonials": true
+    },
+    "brandPillars": [
+      {
+        "icon": "Leaf",
+        "title": "100% Plant-Based",
+        "subtitle": "Virgin edible oils, pure plant butters, no animal fats"
+      },
+      {
+        "icon": "Award",
+        "title": "42-Day Cedar Curing",
+        "subtitle": "Naturally formed skin-nourishing botanical glycerin"
+      },
+      {
+        "icon": "Truck",
+        "title": "Free Pan-India Delivery",
+        "subtitle": "Express courier delivery on all orders over ₹799"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Sole Proprietor Special",
+        "subtitle": "Hand-stamped and packaged by Thiru Kailash"
+      }
+    ],
+    "storyExcerpt": "Every batch of Lumina soap is made slowly using traditional room-temperature saponification. We never use melt-and-pour bases, synthetic foaming chemicals (SLS/SLES), phthalate perfumes, or artificial hardening additives.",
+    "lastUpdated": "2026-09-15T00:00:00.000Z"
+  },
+  "brandPages": [
+    {
+      "id": "page-about",
+      "title": "About Lumina Soaps",
+      "slug": "about",
+      "summary": "Our artisan philosophy and commitment to natural cold-process skincare.",
+      "content": "Lumina Homemade Soaps was founded in Bengaluru as a dedicated artisan craft studio by Thiru Kailash. We believe everyday bathing should be a restorative sensory ritual rooted in botanical purity. Every bar is hand-measured, small-batch blended, hand-cut, and cured for a full six weeks on cedar drying racks.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-story",
+      "title": "The Cold Process Story",
+      "slug": "story",
+      "summary": "The 42-day journey from botanical oils to cured luxury bar.",
+      "content": "Unlike mass-market commercial soaps which extract natural glycerin for high-margin cosmetics, our traditional cold process keeps 100% of the natural botanical glycerin inside the bar. Saponification happens gently over 48 hours, followed by 42 days of open-air curing on aromatic cedar racks to achieve natural hardness and long-lasting lather.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-workshop",
+      "title": "The Artisan Workshop",
+      "slug": "workshop",
+      "summary": "Indiranagar studio operations, sanitation and batch records.",
+      "content": "Located in Indiranagar, Bengaluru, our micro-soapery adheres to strict hygiene, food-grade stainless steel blending, and cedar wood rack storage. Each wooden mould pours exactly 48 to 60 bars per batch, numbered with batch traceability codes.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-care",
+      "title": "Soap Care Instructions",
+      "slug": "care",
+      "summary": "How to prolong the life of your natural botanical soap bar.",
+      "content": "Because cold-process soaps contain high amounts of natural glycerin without chemical hardeners, they thrive when kept dry between uses. We recommend placing your bar on a slatted wooden soap dish with good drainage, away from direct shower spray.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-shipping",
+      "title": "Shipping Policy",
+      "slug": "shipping-policy",
+      "summary": "Pan-India courier delivery times, dispatch schedule and rates.",
+      "content": "All orders are handcrafted and packaged with biodegradable paper packaging and dispatched from Bengaluru within 24 to 48 business hours. We deliver across India via India Post Speed Post, Blue Dart, DTDC, and Delhivery. Standard delivery fee is ₹50 for orders below ₹799; orders ₹799 and above enjoy Free Delivery.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-cancellation",
+      "title": "Cancellation Policy",
+      "slug": "cancellation-policy",
+      "summary": "Cancellation guidelines prior to artisan order dispatch.",
+      "content": "Orders may be cancelled free of charge before they are handed over to our dispatch courier. Once an order is handed over and a tracking number is generated, standard return guidelines apply.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-refund",
+      "title": "Return & Refund Policy",
+      "slug": "refund-policy",
+      "summary": "Hygiene considerations and transit damage resolution.",
+      "content": "Due to personal hygiene and bath safety regulations, used soap bars cannot be returned. If an item arrives damaged in transit or incorrect items were received, notify us within 48 hours of delivery for an immediate replacement or full refund.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-privacy",
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "summary": "Protection of customer shipping and account details.",
+      "content": "We hold customer trust sacred. Personal details including name, address, phone number, and purchase history are kept strictly confidential for order fulfillment and customer support. We never sell, lease, or monetize customer data.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-terms",
+      "title": "Terms & Conditions",
+      "slug": "terms",
+      "summary": "Single-proprietorship sales terms and natural variations.",
+      "content": "Lumina Homemade Soaps is operated as a sole-proprietor business in Bengaluru, Karnataka. Natural color variations, herb fleck patterns, and slight weight differences (+/- 5g) reflect genuine handmade cold-process methods and are not defects.",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "page-contact",
+      "title": "Grievance & Customer Support",
+      "slug": "contact",
+      "summary": "Sole proprietor contact channels and direct assistance.",
+      "content": "For any inquiries, custom bridal batch requests, or order assistance, write directly to proprietor Thiru Kailash at mailmethirukailash@gmail.com or via WhatsApp at +91 98765 43210 (Mon-Sat, 9 AM to 6 PM IST).",
+      "isPublished": true,
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "Formulation & Ingredients",
+      "question": "What makes cold-process soap superior to commercial store-bought bars?",
+      "answer": "Commercial soaps typically remove natural glycerin to sell separately in moisturizing creams, replacing it with synthetic detergents (surfactants like SLS) and petroleum preservatives. Our cold process retains 100% of natural plant glycerin, creating a mild bar that respects your skin barrier.",
+      "displayOrder": 1,
+      "isPublished": true
+    },
+    {
+      "id": "faq-2",
+      "category": "Formulation & Ingredients",
+      "question": "Why do you cure soaps for 42 days on cedar drying racks?",
+      "answer": "The 42-day curing process allows all residual moisture to evaporate naturally while the crystalline soap lattice completes full saponification. This produces a hard, long-lasting bar with dense, gentle foam that will not dissolve into mush in your soap dish.",
+      "displayOrder": 2,
+      "isPublished": true
+    },
+    {
+      "id": "faq-3",
+      "category": "Skin Compatibility",
+      "question": "Are Lumina soaps safe for sensitive and eczema-prone skin?",
+      "answer": "Yes! We formulate several ultra-mild bars such as our Kashmiri Saffron & Raw Honey, Goat Milk & Forest Honey, and Unscented Pure Castile with zero synthetic fragrance, zero artificial coloring, and soothing botanical butters.",
+      "displayOrder": 3,
+      "isPublished": true
+    },
+    {
+      "id": "faq-4",
+      "category": "Shipping & Delivery",
+      "question": "How long does delivery take across India?",
+      "answer": "Orders are dispatched within 24-48 business hours from our Bengaluru soapery. Standard metro transit takes 2-4 days; non-metro locations take 4-6 days via India Post Speed Post or express couriers.",
+      "displayOrder": 4,
+      "isPublished": true
+    },
+    {
+      "id": "faq-5",
+      "category": "Product Care",
+      "question": "How long does a single 135g Lumina soap bar last?",
+      "answer": "When placed on a draining soap dish that lets water drip away between baths, a 135g bar typically lasts 3 to 4 weeks with daily full-body use by an individual.",
+      "displayOrder": 5,
+      "isPublished": true
+    }
+  ],
+  "media": [
+    {
+      "id": "med-saffron-1",
+      "filename": "kashmiri-saffron-honey-artisan-bar.jpg",
+      "url": "https://images.unsplash.com/photo-1607006314597-9e7960787e95?auto=format&fit=crop&w=800&q=80",
+      "altText": "Kashmiri Saffron and Raw Honey Artisan Soap Bar with Mogra strands",
+      "fileType": "image/jpeg",
+      "fileSize": 248500,
+      "associatedType": "product",
+      "associatedId": "soap-inr-1",
+      "uploadedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-sandalwood-1",
+      "filename": "mysore-sandalwood-vetiver-bar.jpg",
+      "url": "https://images.unsplash.com/photo-1608248597359-2ff924294b43?auto=format&fit=crop&w=800&q=80",
+      "altText": "Mysore Sandalwood and Vetiver Root cold-process bar",
+      "fileType": "image/jpeg",
+      "fileSize": 312400,
+      "associatedType": "product",
+      "associatedId": "soap-inr-2",
+      "uploadedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-charcoal-1",
+      "filename": "activated-charcoal-tea-tree-detox.jpg",
+      "url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+      "altText": "Activated Bamboo Charcoal and Australian Tea Tree purifying soap",
+      "fileType": "image/jpeg",
+      "fileSize": 289100,
+      "associatedType": "product",
+      "associatedId": "soap-inr-3",
+      "uploadedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-hero-banner",
+      "filename": "lumina-curing-rack-hero-banner.jpg",
+      "url": "https://images.unsplash.com/photo-1607006311820-d15873f8425b?auto=format&fit=crop&w=1600&q=80",
+      "altText": "Lumina Homemade Soaps curing on cedar drying racks in Bengaluru workshop",
+      "fileType": "image/jpeg",
+      "fileSize": 642000,
+      "associatedType": "banner",
+      "uploadedAt": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "seo": [
+    {
+      "pageId": "home",
+      "pageTitle": "Lumina Homemade Soaps | Artisan Cold Process Soaps in India",
+      "metaDescription": "Handcrafted small-batch artisan soaps cured 42 days on solid cedar racks. 100% plant-based virgin oils, raw honey, and wild herbs. Free delivery over ₹799.",
+      "canonicalUrl": "https://luminasoaps.in/",
+      "ogTitle": "Lumina Homemade Soaps | Pure Care. Natural Glow.",
+      "ogDescription": "Experience traditional cold-process bath bars made by sole proprietor Thiru Kailash in Bengaluru.",
+      "ogImage": "https://images.unsplash.com/photo-1607006311820-d15873f8425b?auto=format&fit=crop&w=1200&q=80",
+      "indexing": true,
+      "keywords": [
+        "homemade soap india",
+        "cold process soap",
+        "artisan soap bengaluru",
+        "saffron soap",
+        "natural bath bars"
+      ],
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "pageId": "shop",
+      "pageTitle": "Shop Handcrafted Botanical Soaps | Lumina Homemade Soaps",
+      "metaDescription": "Explore our full collection of natural cold-process soaps: Kashmiri Saffron, Mysore Sandalwood, Goat Milk, and Charcoal detox bars in India.",
+      "canonicalUrl": "https://luminasoaps.in/shop",
+      "indexing": true,
+      "keywords": [
+        "buy handmade soap",
+        "natural soaps online india",
+        "cold process bath bar"
+      ],
+      "lastUpdated": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "customerSegments": [],
+  "customerNotes": [],
+  "campaigns": []
+}
